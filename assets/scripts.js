@@ -11,9 +11,9 @@ button.addEventListener('click', function () {
 
 function process() {
     button.innerHTML += '.';
-    window.setTimeout(process, 500);
+    window.setTimeout(process, 1000);
 
-    if (increment++ == 2) {
+    if (increment++ == 4) {
         alert('Chat spam Kappa 123');
         window.location.href = 'https://www.youtube.com/watch?v=oHg5SJYRHA0';
     }
