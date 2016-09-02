@@ -14,6 +14,7 @@ function process() {
     window.setTimeout(process, 500);
 
     if (increment++ == 2) {
+        alert('Chat spam Kappa 123');
         window.location.href = 'https://www.youtube.com/watch?v=oHg5SJYRHA0';
     }
 }
